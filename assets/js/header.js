@@ -1,7 +1,7 @@
 (() => {
   const HEADER = {
     title: "Big Hill Runners",
-    subtitle: "A running club in Cochrane, Alberta.",
+    subtitle: "",
     homeHref: "/index.html",
   };
 
