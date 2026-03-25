@@ -65,9 +65,6 @@
     nav.innerHTML = buildNavHTML();
   }
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", initNav);
-  } else {
-    initNav();
-  }
+  // Important: run immediately so main.js sees the completed nav
+  initNav();
 })();
