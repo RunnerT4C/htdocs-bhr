@@ -3,7 +3,7 @@
     links: [
       { label: "About", href: "/index.html" },
       { label: "Schedule", href: "/schedule.html" },
-      { label: "6 Summits of Spring", href: "/six-summits.html" },
+      //{ label: "6 Summits of Spring", href: "/six-summits.html" },
     ],
     socials: [
       {
