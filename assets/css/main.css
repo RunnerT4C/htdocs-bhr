@@ -4687,3 +4687,40 @@ input, select, textarea {
 		}
 
 	}
+
+
+.bhr-calendar {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.calendar-desktop iframe,
+.calendar-mobile iframe {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+}
+
+.calendar-desktop iframe {
+  height: 650px;
+}
+
+.calendar-mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .calendar-desktop {
+    display: none;
+  }
+
+  .calendar-mobile {
+    display: block;
+  }
+
+  .calendar-mobile iframe {
+    height: 550px;
+  }
+}
