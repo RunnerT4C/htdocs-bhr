@@ -3,7 +3,7 @@
     links: [
       { label: "About", href: "/index.html" },
       { label: "Schedule", href: "/schedule.html" },
-      { label: "6 Summits of Spring", href: "/six-summits.html" },
+      //{ label: "6 Summits of Spring", href: "/six-summits.html" },
     ],
     socials: [
       {
@@ -16,6 +16,11 @@
         href: "https://www.instagram.com/bighillrunners/",
         iconClass: "icon brands fa-instagram",
       },
+      {
+        label: "Strava",
+        href: "https://www.strava.com/clubs/2407443",
+        iconClass: "icon brands fa-strava",
+      }
     ],
   };
 

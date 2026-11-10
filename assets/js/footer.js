@@ -14,6 +14,11 @@
         href: "https://www.instagram.com/bighillrunners/",
         iconClass: "icon brands alt fa-instagram",
       },
+      {
+        label: "Strava",
+        href: "https://www.strava.com/clubs/2407443",
+        iconClass: "icon brands fa-strava",
+      }
     ],
   };
 
